@@ -1,7 +1,4 @@
-#name:Dinakar Reddy Bhumireddy 
-#name:Anushka Poddaturi
-#name:Shivali Mavi
-#name:Alina Adhikari
+# load the libraries
 library(haven)
 library(multcomp)
 library(car)
@@ -17,6 +14,7 @@ library(lme4)
 library(plm)
 library(fixest)
 library(foreign)
+
 # load the data
 data_gun<- read_dta("/Users/dinu/Desktop/project/guns.dta")
 write.csv(data_gun, file = "data_gun.csv", row.names = FALSE)
